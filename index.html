@@ -2,14 +2,65 @@
 
 <style>
   body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
     background-color: #73D0E1
   }
 </style>
 
-<div class='w3-container w3-teal'>
-  <img src="drlogo.png">
-  <h1> Danganronpa Simulator </h1>
+<div class='w3-container w3-center'>
+  <img src="drlogo.png" alt="Danganronpa">
+  <font size=6 style=color:black> Simulator </font>
 </div>
+
+
+<label> Please Enter Your Characters
+<div class='w3-row-padding'>
+  <div class='w3-col s4 m4 l4 w3-center'>
+    <input class="w3-input w3-border" type="text" placeholder="Character Name">
+  </div>
+  <div class='w3-col s2 m2 l2 w3-center'>
+    <select class="w3-select" name="option">
+      <option value="" disabled selected>Strength</option>
+      <option value="5">Beast (5)</option>
+      <option value="4">Great (4)</option>
+      <option value="3">Average (3)</option>
+      <option value="2">Decent (2)</option>
+      <option value="1">Terrible (1)</option>
+      </select>
+  </div>
+  <div class='w3-col s2 m2 l2 w3-center'>
+    <select class="w3-select" name="option">
+      <option value="" disabled selected>Luck</option>
+      <option value="5">Beast (5)</option>
+      <option value="4">Great (4)</option>
+      <option value="3">Average (3)</option>
+      <option value="2">Decent (2)</option>
+      <option value="1">Terrible (1)</option>
+      </select>
+  </div>
+  <div class='w3-col s2 m2 l2 w3-center'>
+    <select class="w3-select" name="option">
+      <option value="" disabled selected>Intelligence</option>
+      <option value="5">Beast (5)</option>
+      <option value="4">Great (4)</option>
+      <option value="3">Average (3)</option>
+      <option value="2">Decent (2)</option>
+      <option value="1">Terrible (1)</option>
+      </select>
+  </div>
+  <div class='w3-col s2 m2 l2 w3-center'>
+    <select class="w3-select" name="option">
+      <option value="" disabled selected>Hope</option>
+      <option value="5">Hope (5)</option>
+      <option value="4">Optimistic (4)</option>
+      <option value="3">Neutral (3)</option>
+      <option value="2">Pessimistic (2)</option>
+      <option value="1">Despair (1)</option>
+      </select>
+  </div>
+</div>
+  
 
 <div class='w3-panel w3-red w3-border w3-border-red'>
   <p> Red </p>
