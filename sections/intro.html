@@ -1,18 +1,61 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+  <style>
+   body {
+     font-family: 'Source Sans Pro', serif !important;
+     font-size: 18px !important;
+     font-weight: 400 !important;
+     color: white !important;
+     background-color: grey !important;
+   }
+  </style>
+
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
     <title>A Danganronpa Simulator</title>
   </head>
 
-  <body>
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand">DR Simulator</a>
+
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="navbar-link" href="../index.html" style="color: white;">Reset</a>
+      </li>
+    </ul>
+      <span class="navbar-text">Nice!</span>
+  </nav>
+
+<!--
+  <div id="nav-container"></div>
+  <script>
+    $(function(){
+      $("#nav-container").load("nav.html");
+    });
+  </script>
+-->
+  <div class="mt-2">
+
+  <div class="container">
     <script type="text/javascript">
-      var numStudents = 16
+      var numStudents = 16;
     </script>
 
     <p>The
     <script type="text/javascript">document.write(numStudents);</script>
-    of you discovered yourselves in a school locked and barred from the outside.
+    of you discovered yourselves in a school, locked and barred from the outside. During your search for an exit, an announcement comes over the PA system, telling you to gather in the gym. When you arrive, a bear appears... calling himself Monokuma. He declares that everyone will now be living inside the school, hidden from the outside, forever. There is one ticket to the outside, though: murdering another student. Instantly, you all look at each other.
     </p>
-  </body>
+    <p style="color:red;">And so the Killing Game begins...</p>
+
+    <button type="button" class="btn btn-danger">Continue...</button>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </div>
 </html>
